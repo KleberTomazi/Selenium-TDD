@@ -1,0 +1,150 @@
+{
+  "id": "3ffb3816-60f7-4f07-a2ea-efb0a06f76df",
+  "version": "2.0",
+  "name": "Selenium-TDD",
+  "url": "https://www.google.com.br",
+  "tests": [{
+    "id": "d148e642-bf3e-48e8-b540-8e0308ef8da6",
+    "name": "Assert Text",
+    "commands": [{
+      "id": "af9fdd2f-5c41-458b-9fc2-436fef4d6779",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f714e280-857e-46c5-9d28-b4b8c9c1e079",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1289x681",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0ebe567-1cf3-46b9-9d56-0a9bdfa25a77",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af67280b-4bf8-45b5-a614-6149b6ead685",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "c# documentation"
+    }, {
+      "id": "c575f711-5cff-4387-9503-c84a43557a84",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7b380639-3a91-4aac-ac76-2a560f873134",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Documentação do C# – introdução, tutoriais, referência.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "237dbd67-4b7e-4c40-935b-f83aa9ca7d24",
+      "comment": "",
+      "command": "click",
+      "target": "id=ax-132",
+      "targets": [
+        ["id=ax-132", "id"],
+        ["css=#ax-132", "css:finder"],
+        ["xpath=//input[@id='ax-132']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-bar-search-form-desktop']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34fc517f-0984-4bb6-a217-168541cfdc3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ax-132",
+      "targets": [
+        ["id=ax-132", "id"],
+        ["css=#ax-132", "css:finder"],
+        ["xpath=//input[@id='ax-132']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-bar-search-form-desktop']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "Entity framework"
+    }, {
+      "id": "86c373c3-9dfb-4cde-b0c3-157098793d6f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ax-132",
+      "targets": [
+        ["id=ax-132", "id"],
+        ["css=#ax-132", "css:finder"],
+        ["xpath=//input[@id='ax-132']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-bar-search-form-desktop']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5752e435-9b4e-4359-8e96-b7a33033a3de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LINQ to Entities - ADO.NET",
+      "targets": [
+        ["linkText=LINQ to Entities - ADO.NET", "linkText"],
+        ["css=.has-margin-top-large:nth-child(1) a", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/ul/li/h2/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.microsoft.com/pt-br/dotnet/framework/data/adonet/ef/language-reference/linq-to-entities')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'LINQ to Entities - ADO.NET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f75ecc85-0dcd-4472-bb16-632f08d5f110",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=linq-to-entities",
+      "targets": [
+        ["id=linq-to-entities", "id"],
+        ["css=#linq-to-entities", "css:finder"],
+        ["xpath=//h1[@id='linq-to-entities']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'LINQ to Entities')]", "xpath:innerText"]
+      ],
+      "value": "LINQ to Entities"
+    }]
+  }],
+  "suites": [{
+    "id": "f2738c61-b4f7-4034-b580-9c06e15d652d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com.br/"],
+  "plugins": []
+}
